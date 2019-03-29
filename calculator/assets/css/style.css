@@ -1,0 +1,124 @@
+/* 
+Name: Caclulator
+URI: mariolafuente.com
+Author : mariolafuente.com
+Description: Calculator for practice
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: calculator, js
+Version: 1.0 
+time for html and css 50min
+ */
+
+/* 0.0.1 Reset */
+/* 0.0.2 caclulator */
+
+
+/* 0.0.1 Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 0.0.2 caclulator */
+div#calWrap div, div#calWrap ul, div#calWrap li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+div#calWrap {
+  font-size: 40px;
+  font-family: arial;
+  margin: 100px auto;
+  background: #cbcbcb;
+  width: 450px;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+div#screen {
+  width: 100%;
+  height: 15vh;
+  background: black;
+  color: white;
+
+}
+#calNumbers, #caloperator, #calInt, #calOperInter {
+  width: 100%;
+  align-items: flex-end;
+}
+div#calNumbers {
+  width: 80%;
+
+}
+
+div#caloperator {
+  width: 20%;
+  background: #ff7d00;
+  color: white;
+ 
+}
+.square{
+  width: 33.33%;
+  height: 100px;
+}
+#calOperInter .square {
+  width: 100%;
+}
+ .calC {
+  background-color: aliceblue;
+  height: 100px;
+  width: 66.60%;
+ 
+}
+.cal0 {
+  width: 100%;
+  height: 100px;
+
+}
+.back {
+  height: 100px;
+
+} 
